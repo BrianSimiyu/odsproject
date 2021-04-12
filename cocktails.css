@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+h2 {
+    padding-top: 120px;
+    padding-bottom: 10px;
+    font-size: 30px;
+   
+}
+
+h4 {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+.navBar {
+    background-color: #FE019A;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    
+}
+
+
+.navBar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navBar a:hover {
+    color: black;
+    
+}
+
+.nav_list {
+    list-style-type: none;
+    
+}
+
+.nav_list .list_item {
+    display:inline-block;
+    padding: 20px 40px;
+}
+
+.footer{
+    background-color: #FE019A;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; 
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: black;
+    
+}
+
+
+.body_section{
+    margin: auto;
+    max-width:1080px;
+    padding-left: 10%;
+}
+
+
+.list li {
+    padding: 5px;
+}
+
+.steps_section{
+    padding-bottom: 50px;
+}
+
+
+
+
